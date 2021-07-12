@@ -19,6 +19,7 @@ comopser install
 composer dump-autoload
 ```
 
+仮実装を用意していますので  
 「型」の内容を見て、テスト駆動開発で進めてください。
 
 ## 「型」
@@ -46,6 +47,16 @@ composer dump-autoload
 #### 仕様
 西暦年数が4の倍数である場合、うるう年  
 ただし、100の倍数、かつ、400の倍数でない場合は平年
+
+### FizzBuzz
+言葉遊び ([遊び方](https://ja.wikipedia.org/wiki/Fizz_Buzz))  
+[TDD BCのお題](https://www.slideshare.net/t_wada/tddbc-exercise) もしくは [ライブコーディング](https://www.youtube.com/watch?v=Q-FJ3XmFlT8) を参照してください。
+
+#### 仕様
+1から100までの数をプリントする  
+ただし、3の倍数の時は数の代わりに「Fizz」  
+5の倍数の時は「Buzz」  
+3と5の両方の倍数の場合は「FizzBuzz」とプリントすること
 
 ## 注意事項
 「型」の練習結果を本リポジトリにコミットしないでください。
