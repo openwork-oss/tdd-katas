@@ -7,12 +7,11 @@ namespace Tests\LeapYear;
 use App\LeapYear\Year;
 use PHPUnit\Framework\TestCase;
 
-class LeapYearTest extends TestCase
+class YearTest extends TestCase
 {
-
-    public function test_4の倍数じゃない年は平年(): void
+    public function test_2001年は平年(): void
     {
-        $year = new Year(2021);
+        $year = new Year(2001);
         self::assertFalse($year->isLeap());
     }
 }
