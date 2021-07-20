@@ -124,4 +124,4 @@ composer dump-autoload
 
 
 ## 注意事項
-「型」の練習結果を [本リポジトリ](https://github.com/openwork-oss/tdd-katas) にコミットしないでください。
+「型」の練習結果を [フォーク元リポジトリ](https://github.com/openwork-oss/tdd-katas) にはコミットおよびプルリクエストせず、フォーク先のリポジトリに対してコミットしてください。
